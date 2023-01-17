@@ -1,0 +1,22 @@
+{
+  "name": "get_instagram_wp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "wp-env": "wp-env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rathMiguel/get_instagram_wp.git"
+  },
+  "author": "kenji hashimoto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rathMiguel/get_instagram_wp/issues"
+  },
+  "homepage": "https://github.com/rathMiguel/get_instagram_wp#readme",
+  "devDependencies": {
+    "@wordpress/env": "^5.9.0"
+  }
+}

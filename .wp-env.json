@@ -1,0 +1,21 @@
+{
+  "core": "https://ja.wordpress.org/wordpress-6.1.1-ja.zip",
+  "phpVersion": "7.4",
+  "plugins": [
+    "https://downloads.wordpress.org/plugin/query-monitor.3.7.1.zip",
+    "https://downloads.wordpress.org/plugin/wp-multibyte-patch.2.9.zip"
+  ],
+  "themes": [],
+  "port": 10011,
+  "env": {
+    "tests": {
+      "port": 10012
+    }
+  },
+  "config": {
+    "WP_DEBUG": true
+  },
+  "mappings": {
+    "wp-content/themes/get_instagram/": "./src/"
+  }
+}
